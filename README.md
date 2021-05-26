@@ -72,7 +72,4 @@ In the event that this occurs the server and client should be restarted, and the
 |1 - 1         | 1-1        |
 |2 * 2         |2*2         |
 |4 / 2         |4/2         |
-<<<<<<< HEAD
 
-=======
->>>>>>> ced15fbc8612771213f671418370512be850d060
