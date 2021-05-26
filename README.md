@@ -54,3 +54,21 @@ After determining the result, the Server class will print the value to its conso
 
 The answer will then be sent back to the Client class to be displayed to the user via the out object
 ```
+### Errors that may occur and what to do
+if the inputLine string does not have whitespaces in between the operands, and the operator
+the error below will occur
+```
+Exception in thread "main" java.lang.NumberFormatException: For input string: "24/2"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.base/java.lang.Float.parseFloat(Float.java:455)
+	at Server.main(Server.java:25)
+```
+In the event that this occurs the server and client should be restarted, and the correct format used for the inputLine
+
+|Correct format|Wrong format|
+|:------------:|:----------:|
+|1 + 1         |1+1         |
+|1 - 1         | 1-1        |
+|2 * 2         |2*2         |
+|4 / 2         |4/2         |
