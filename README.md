@@ -1,5 +1,5 @@
 # Client-Server-calculator
-Simple Client Server calculator
+Simple Client Server calculator <br/>
 This is a modified version of the [ClientServer_echo_example](https://github.com/KimAdrian/ClientServer_echo_example) <br/>
 The server has been modified to perform calculations based on the user input and send it back to the client side.<br/>
 The client class still functions in a similar manner to the [echo client](https://github.com/KimAdrian/ClientServer_echo_example/blob/master/src/Client.java) <br/>
